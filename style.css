@@ -1,0 +1,58 @@
+/* Resetear algunos estilos por defecto del navegador */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header, section, footer {
+    padding: 20px;
+    color: #333;
+}
+
+header {
+    background-color: #f9a825;
+    text-align: center;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    background-color: #f9a825;
+}
+
+.trabajo h3, .escuela h3 {
+    margin-bottom: 5px;
+    color: #f9a825;
+}
+
+.trabajo p, .escuela p {
+    margin-bottom: 10px;
+}
+
+.habilidades ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.perfil {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    left: 950px;
+    top: 20px;
+    border-radius: 360px;
+}
+
